@@ -1,0 +1,15 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using HotelBookingApp.Models;
+
+namespace HotelBookingApp.Repositories
+{
+    public interface IHotelRepository
+    {
+        Task<List<Hotel>> GetAllHotelsAsync();
+        Task<Hotel> GetHotelByIdAsync(int id);
+        Task<bool> AddHotelAsync(Hotel hotel);
+        Task<bool> UpdateHotelAsync(Hotel hotel);
+        Task<bool> DeleteHotelAsync(int id);
+    }
+}
