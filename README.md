@@ -1,5 +1,3 @@
-# Combine README and Test Users info into a single Notepad-friendly text file
-combined_info = f"""
 ==============================
 🏨 HotelBooking API - README
 ==============================
